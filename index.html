@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ネズミたたきゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🔨 ネズミたたき 🐭</h1>
+        <div class="score-board">
+            <p>スコア: <span id="score">0</span> 点</p>
+            <p>のこり時間: <span id="time">15</span> 秒</p>
+            <button id="start-btn">スタート</button>
+        </div>
+        <!-- 3x3の穴 -->
+        <div class="grid">
+            <div class="hole" id="hole-0"></div>
+            <div class="hole" id="hole-1"></div>
+            <div class="hole" id="hole-2"></div>
+            <div class="hole" id="hole-3"></div>
+            <div class="hole" id="hole-4"></div>
+            <div class="hole" id="hole-5"></div>
+            <div class="hole" id="hole-6"></div>
+            <div class="hole" id="hole-7"></div>
+            <div class="hole" id="hole-8"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
