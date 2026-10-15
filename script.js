@@ -56,8 +56,8 @@ holes.forEach(hole => {
             score += 10;
             scoreDisplay.textContent = score;
             
-            // 🧀 捕まえたらチーズに変わる演出
-            hole.textContent = '🧀'; 
+            // 💫 捕まえたらぐるぐるする演出
+            hole.textContent = '💫'; 
             activeHole = null;
         }
     });
